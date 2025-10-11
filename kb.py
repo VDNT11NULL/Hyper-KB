@@ -1,3 +1,4 @@
+# Pymongo install kar lena
 from pymongo import MongoClient, ASCENDING, TEXT
 from pymongo.server_api import ServerApi
 from datetime import datetime
