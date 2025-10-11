@@ -269,5 +269,4 @@ if __name__ == "__main__":
     )
     
     print(f" Inserted interaction: {interaction_id}")
-
     kb.close()
