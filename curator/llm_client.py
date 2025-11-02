@@ -5,7 +5,7 @@ from sentence_transformers import SentenceTransformer
 def get_llm_client():
     """Initialize and return a Hugging Face InferenceClient"""
     return InferenceClient(
-        model="mistralai/Mistral-7B-Instruct-v0.2",
+        model="google/gemma-3-27b-it",
         token=os.getenv("HF_TOKEN")
     )
 
