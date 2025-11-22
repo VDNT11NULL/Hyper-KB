@@ -18,7 +18,6 @@ def main():
     pipeline = HybridRetrievalPipeline()
     session_id = str(uuid4())
     
-    # Seed with quick examples
     examples = [
         ("What is Python?", "Python is a high-level programming language."),
         ("How do I write a function?", "Use the def keyword followed by function name and parameters."),
